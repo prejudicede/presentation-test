@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+
+body{
+	min-height:740px;
+	background: rgb(240,210,210);
+	background: -webkit-radial-gradient(rgb(240,240,240),rgb(240,230,220)); 
+	background: -moz-radial-gradient(rgb(240,240,240),rgb(240,230,220)); 
+	background: -ms-radial-gradient(rgb(240,240,240),rgb(240,230,220)); 
+	background:     radial-gradient(rgb(240,240,240),rgb(255,235,205)); 
+}
+
+
+.nav{
+	position: absolute;
+	top:250px;
+	height:100px;
+	width:100px;
+	border-radius:10px;
+	background-color:rgba(20,20,20,0);
+	text-align:center;
+	color:#FFF;
+	vertical-align:middle;
+	line-height:100px;
+	}
+	
+#pre{
+	left:400px;
+}
+
+#nex{
+	left:900px;
+}
+
+
+.navShow{
+	background-color:rgba(20,20,20,0.3);
+}
+
+
+
+.step{
+
+	height:500px;
+	width:600px;
+	top:50px;
+	left:400px;
+	position:absolute;
+	background:rgba(200,230,200,0.5);
+	border: 5px solid  rgba(155,135,205,0.2);
+	border-radius:10px;
+	display:none;
+}
+
+.current{
+	display:block;
+}
